@@ -39,17 +39,17 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                       <pre>
                         <code>{`<div id="anu-doc-carousel" class="carousel slide" data-bs-ride="false">
     <!-- Part 1: indicators -->
-    <div class="carousel-indicators">
+    <div className="carousel-indicators">
         <button type="button" data-bs-target="#anu-doc-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#anu-doc-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#anu-doc-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
 
     <!-- Part 2: sliders -->
-    <div class="carousel-inner">
-        <div class="carousel-item active"> ... </div>
-        <div class="carousel-item"> ...  </div>
-        <div class="carousel-item"> ...  </div>
+    <div className="carousel-inner">
+        <div className="carousel-item active"> ... </div>
+        <div className="carousel-item"> ...  </div>
+        <div className="carousel-item"> ...  </div>
     </div>
 
     <!-- Part 3: prev/next buttons -->
@@ -173,11 +173,11 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                         <p className="box bdr-left-gold bdr-thick">{`For clarification, below is the code snippet`}</p>
                         <pre className="m-0">
                           <code>{`<div id="anu-doc-carousel" class="carousel slide" `}<span className="bg-tint">{`data-bs-ride="false"`}</span>{`>
-    <div class="carousel-indicators">
+    <div className="carousel-indicators">
     ...
     </div>
-    <div class="carousel-inner">
-    ...                            
+    <div className="carousel-inner">
+    ...
     </div>
     ...
 </div>`}</code>
@@ -280,10 +280,10 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                         <p className="box bdr-left-gold bdr-thick">{`For clarification, below is the code snippet`}</p>
                         <pre className="m-0">
                           <code>{`<div id="anu-doc-carousel" class="carousel slide" `}<span className="bg-tint">{`data-bs-ride="carousel"`}</span>{`>
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
         ...
         </div>
-        <div class="carousel-inner">
+        <div className="carousel-inner">
         ...
         </div>
     ...
@@ -393,10 +393,10 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                         <p className="box bdr-left-gold bdr-thick">{`For clarification, below is the code snippet`}</p>
                         <pre className="m-0">
                           <code>{`<div id="anu-doc-carousel" class="carousel slide" `}<span className="bg-tint">{`data-bs-ride="carousel" data-bs-interval="3000"`}</span>{`>
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
         ...
         </div>
-        <div class="carousel-inner">
+        <div className="carousel-inner">
         ...
         </div>
     ...
@@ -509,13 +509,13 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                         <p className="box bdr-left-gold bdr-thick">{`For clarification, below is the code snippet`}</p>
                         <pre className="m-0">
                           <code>{`<div id="anu-doc-carousel" class="carousel slide" `}<span className="bg-tint">{`data-bs-ride="carousel"`}</span>{`>
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
         ...
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" `}<span className="bg-tint">{`data-bs-interval="1000" `}</span>{`> ... </div>
-            <div class="carousel-item" `}<span className="bg-tint">{`data-bs-interval="2000" `}</span>{`> ... </div>
-            <div class="carousel-item" `}<span className="bg-tint">{`data-bs-interval="3000" `}</span>{`> ... </div>
+        <div className="carousel-inner">
+            <div className="carousel-item active" `}<span className="bg-tint">{`data-bs-interval="1000" `}</span>{`> ... </div>
+            <div className="carousel-item" `}<span className="bg-tint">{`data-bs-interval="2000" `}</span>{`> ... </div>
+            <div className="carousel-item" `}<span className="bg-tint">{`data-bs-interval="3000" `}</span>{`> ... </div>
         </div>
     ...
 </div>`}</code>

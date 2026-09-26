@@ -89,7 +89,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                   <div className="col-lg-5 col-md-5 col-sm-12">
                     <pre className="mb-0" style={{"overflowX": "auto"}}>
                       <code>{`
-<div class="field">
+<div className="field">
     <label class="req" for="requester"><strong>Name</strong></label>
     <span>
         <input type="text" class="text tfull" id="requester" name="requester" aria-required="true"
@@ -154,7 +154,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                     <div className="box-bdr-gold">
                       <pre className="mb-0" style={{"overflowX": "auto"}}>
                         <code>{`
-<div class="field">
+<div className="field">
     <label `}<span className="bg-tint">{`class="req"`}</span>{` for="requester"><strong>Name</strong></label>
     <span>
         <input type="text" class="text wide" id="requester" name="requester" `}<span className="bg-tint">{`aria-required="true"
@@ -186,7 +186,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                   <div className="col-lg-5 col-md-5 col-sm-12">
                     <pre className="mb-0" style={{"overflowX": "auto"}}>
                       <code>{`
-<div class="field">
+<div className="field">
     <label for="sub1name">Something else</label>
     <span>
         <input type="text" class="text tfull" id="sub1name" name="sub1name" />
@@ -219,7 +219,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                   <div className="col-lg-5 col-md-5 col-sm-12">
                     <pre className="mb-0" style={{"overflowX": "auto"}}>
                       <code>{`
-<div class="field">
+<div className="field">
     <label for="sub1name">Something else</label>
     <span>
         <input type="text" class="text tfull" id="sub1name" name="sub1name" />
@@ -253,7 +253,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                   <div className="col-lg-5 col-md-5 col-sm-12">
                     <pre className="mb-0" style={{"overflowX": "auto"}}>
                       <code>{`
-<div class="field">
+<div className="field">
     <label class="req" for="requester">Name</label>
     <span>
         <input type="text" class="text tfull" id="requester" name="requester" placeholder="Your name"/>
@@ -339,7 +339,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                       <code>{`
 <fieldset class="radiofield">
    <legend>Some radio buttons</legend>
-   <div class="radiobox">
+   <div className="radiobox">
         <input type="radio" id="bob" name="rad" value="bob">
         <label for="bob">Bob this is a long title</label>
         <input type="radio" id="bill" name="rad" value="bill">
@@ -374,7 +374,7 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
                     <pre style={{"overflowX": "auto"}}>
                       <code>{`
 <fieldset>
-    <div class="field w45">
+    <div className="field w45">
         <label class="req" for="requester-name"><strong>Short 1</strong></label>
         <span>
             <input type="text" class="text tfull" id="requester-name" name="requester-name"
@@ -481,14 +481,14 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
 <form class="anuform" action="#" method="post">
     <fieldset>
         <legend>First heading</legend>
-        <div class="field">
+        <div className="field">
             <label class="req" for="requester-name"><strong>Name</strong></label>
             <span>
                 <input type="text" class="text tfull" id="requester-name" name="requester-name"
                     placeholder="Your full name" aria-required="true" required="">
             </span>
         </div>
-        <div class="field">
+        <div className="field">
             <label class="req" for="requester-email">Email address</label>
             <span>
                 <input type="text" class="text tfull" id="requester-email" name="requester-email"
@@ -498,21 +498,21 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
     </fieldset>
     <fieldset>
         <legend>2nd section heading</legend>
-        <div class="field">
+        <div className="field">
             <label for="sitename">Something</label>
             <span>
                 <input type="text" class="text tfull" id="sitename" name="sitename">
                 <p class="instruction"> some instructions about this something </p>
             </span>
         </div>
-        <div class="field">
+        <div className="field">
             <label for="siteurl">URL</label>
             <span>
                 <input type="text" class="text tfull" id="siteurl" name="siteurl">
                 <p class="instruction">do not include http://</p>
             </span>
         </div>
-        <div class="field">
+        <div className="field">
             <label for="sub1name">Something else</label>
             <span>
                 <input type="text" class="text tfull" id="sub1name" name="sub1name">
@@ -521,14 +521,14 @@ import { Unstyled } from '@storybook/addon-docs/blocks';
         </div>
         <fieldset class="radiofield">
             <legend>Some radio buttons</legend>
-            <div class="radiobox">
+            <div className="radiobox">
                 <input type="radio" id="bob" name="rad" value="bob"><label for="bob">Bob this is a long title</label>
                 <input type="radio" id="bill" name="rad" value="bill"><label for="bill">Bill</label>
                 <input type="radio" id="jan" name="rad" value="jan"><label for="jan">Jan</label>
                 <input type="radio" id="jill" name="rad" value="jill"><label for="jill">Jill</label>
             </div>
         </fieldset>
-        <div class="field">
+        <div className="field">
             <label for="tareaname">A text area</label>
             <textarea class="tfull" id="tareaname" name="tareaname" rows="4"></textarea>
         </div>
