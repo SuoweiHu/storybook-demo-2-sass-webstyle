@@ -22,7 +22,7 @@ You can run the project via running the following:
 
 
 
-Last preview on (expiring within on Oct 10th ):
+Last preview on Chromatic (main-branch):
 
--   https://f6f51ba4034a703d1cbfdde81cc5d355.share.chromatic.com
+- [https://main--6ab7c3e4a4089b10a20fdae4.chromatic.com/](https://main--6ab7c3e4a4089b10a20fdae4.chromatic.com/)
 
