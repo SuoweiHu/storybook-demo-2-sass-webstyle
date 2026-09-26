@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_bfe7058907efa14"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -16,7 +17,6 @@
     "@chromatic-com/storybook": "latest",
     "@storybook/addon-a11y": "^10.6.0",
     "@storybook/addon-docs": "^10.6.0",
-    "@storybook/addon-onboarding": "^10.6.0",
     "@storybook/addon-styling-webpack": "^3.0.2",
     "@storybook/addon-vitest": "^10.6.0",
     "@storybook/react-vite": "^10.6.0",
@@ -26,6 +26,7 @@
     "@vitejs/plugin-react": "^6.1.1",
     "@vitest/browser-playwright": "latest",
     "@vitest/coverage-v8": "latest",
+    "chromatic": "^18.9.5",
     "playwright": "latest",
     "sass-embedded": "^1.105.0",
     "storybook": "^10.6.0",
