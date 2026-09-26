@@ -27,6 +27,7 @@
     "@vitest/browser-playwright": "latest",
     "@vitest/coverage-v8": "latest",
     "playwright": "latest",
+    "sass-embedded": "^1.105.0",
     "storybook": "^10.6.0",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",

@@ -1,4 +1,7 @@
 import type { Preview } from '@storybook/react-vite'
+import '../components/webstyle/lib/sew-websites-webstyle/styles/js/src/main';
+import '../components/webstyle/lib/sew-websites-webstyle/styles/scss/export.scss';
+
 
 const preview: Preview = {
   parameters: {
