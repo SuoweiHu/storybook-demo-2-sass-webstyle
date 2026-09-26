@@ -1,6 +1,6 @@
 import type { Preview } from '@storybook/react-vite'
-import '../components/webstyle/lib/sew-websites-webstyle/styles/js/src/main';
-import '../components/webstyle/lib/sew-websites-webstyle/styles/scss/export.scss';
+import '../components/WebStyle/lib/sew-websites-webstyle/styles/js/src/main';
+import '../components/WebStyle/lib/sew-websites-webstyle/styles/scss/export.scss';
 
 
 const preview: Preview = {
@@ -16,7 +16,14 @@ const preview: Preview = {
       // 'error' - fail CI on a11y violations
       // 'off' - skip a11y checks entirely
       test: 'todo'
-    }
+    },
+    options: {
+            storySort: {
+                order: [
+                    'WebStyle', ['Introduction', 'Layout', 'Text', 'Graphics']
+                ],
+            },
+        },
   },
 };
 
